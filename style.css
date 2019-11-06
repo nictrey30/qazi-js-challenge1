@@ -1,0 +1,26 @@
+.container-1 {
+  border: 1px solid black;
+  width: 70%;
+  margin: 20px auto;
+}
+.container-1 h2 {
+  padding: 10px;
+  text-align: center;
+}
+.flex-box-container-1 {
+  border-top: 1px solid black;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-content: center;
+}
+.flex-box-container-1 > div {
+  padding: 10px;
+}
+.flex-box-container-1 .form-group {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-box-container-1 .form-group * {
+  margin: 5px;
+}
